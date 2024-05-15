@@ -1,0 +1,51 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+.calcul-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+#title {
+    text-align: center;
+}
+#calcul{
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+.my.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px; 
+}
+.col1,
+.col2,
+.col3,
+.col4,
+.col5 {
+    display: flex;
+    flex-direction: column;
+}
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    background-color: #f0f0f047;
+}
+button.parentheses {
+    background-color: #e0e0e05f; 
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+h6 {
+    font-size: 12px;
+}
